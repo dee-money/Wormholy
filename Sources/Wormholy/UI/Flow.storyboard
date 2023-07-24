@@ -11,7 +11,7 @@
         <!--Navigation Controller-->
         <scene sceneID="cC1-jy-BNy">
             <objects>
-                <navigationController storyboardIdentifier="WormholyNavigationController" id="XiN-zk-JTq" customClass="WHNavigationController" customModule="Wormholy" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="WormholyNavigationController" id="XiN-zk-JTq" customClass="WHNavigationController" customModule="Wormholy" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nvE-2v-Siz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -27,12 +27,12 @@
         <!--Requests-->
         <scene sceneID="bMY-jK-aiL">
             <objects>
-                <viewController storyboardIdentifier="RequestsViewController" automaticallyAdjustsScrollViewInsets="NO" id="hrW-Yh-eEJ" customClass="RequestsViewController" customModule="Wormholy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RequestsViewController" automaticallyAdjustsScrollViewInsets="NO" id="hrW-Yh-eEJ" customClass="RequestsViewController" customModule="Wormholy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NrO-gO-tFr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="v4V-Us-h8K" customClass="WHCollectionView" customModule="Wormholy" customModuleProvider="target">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="v4V-Us-h8K" customClass="WHCollectionView" customModule="Wormholy">
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="8" minimumInteritemSpacing="0.0" sectionInsetReference="safeArea" id="o7G-P5-gW8">
@@ -70,12 +70,12 @@
         <!--Request Detail View Controller-->
         <scene sceneID="JaV-AO-yRE">
             <objects>
-                <viewController storyboardIdentifier="RequestDetailViewController" automaticallyAdjustsScrollViewInsets="NO" id="oCq-W9-inr" customClass="RequestDetailViewController" customModule="Wormholy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RequestDetailViewController" automaticallyAdjustsScrollViewInsets="NO" id="oCq-W9-inr" customClass="RequestDetailViewController" customModule="Wormholy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dxP-Gd-tGS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C1R-oy-f7k" customClass="WHTableView" customModule="Wormholy" customModuleProvider="target">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C1R-oy-f7k" customClass="WHTableView" customModule="Wormholy">
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="7BC-LK-4id">
@@ -109,12 +109,12 @@
         <!--Body Detail View Controller-->
         <scene sceneID="FPQ-PL-XiD">
             <objects>
-                <viewController storyboardIdentifier="BodyDetailViewController" automaticallyAdjustsScrollViewInsets="NO" id="S40-LP-XSy" customClass="BodyDetailViewController" customModule="Wormholy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BodyDetailViewController" automaticallyAdjustsScrollViewInsets="NO" id="S40-LP-XSy" customClass="BodyDetailViewController" customModule="Wormholy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k01-uv-JVw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fpK-qH-d5h" customClass="WHTextView" customModule="Wormholy" customModuleProvider="target">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fpK-qH-d5h" customClass="WHTextView" customModule="Wormholy">
                                 <rect key="frame" x="0.0" y="44" width="375" height="579"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
