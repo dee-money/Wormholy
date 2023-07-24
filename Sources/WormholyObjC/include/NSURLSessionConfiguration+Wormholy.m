@@ -14,6 +14,8 @@
 #import "Wormholy-Swift.h"
 #endif
 
+@import Wormholy;
+
 typedef NSURLSessionConfiguration*(*SessionConfigConstructor)(id,SEL);
 static SessionConfigConstructor orig_defaultSessionConfiguration;
 static SessionConfigConstructor orig_ephemeralSessionConfiguration;
